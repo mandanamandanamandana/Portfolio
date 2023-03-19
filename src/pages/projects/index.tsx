@@ -1,6 +1,7 @@
 import Navbar from "../../../components/navigation/Navbar";
 import classes from "./projects.module.css";
 import Card from "../../../components/card/card";
+import Link from "next/link";
 
 const contact = () => {
   return (
@@ -38,7 +39,7 @@ const contact = () => {
 
             <p>
               <span className={classes.projectOverview}>Link:</span>
-              <a href='/'>Project Link Here</a>
+              <Link href='/'>Project Link Here</Link>
             </p>
           </div>
         </Card>
