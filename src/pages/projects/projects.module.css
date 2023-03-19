@@ -1,0 +1,51 @@
+.main{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.projectCard h1{
+ background:#c7444a ;
+ color: rgba(255, 255, 255, 0.3);
+ text-transform: uppercase;
+ text-align: right;
+ margin-right: 2.5%;
+}
+
+.projectCard p{
+    display: flex;
+    flex-direction: column;
+    background:#c7444a;
+    margin-top: 1rem;
+    border-bottom: solid .15rem rgba(255, 255, 255, 0.3);
+    padding-bottom: 1rem;
+}
+
+.projectOverview,
+.projectOverview a{
+    background: #c7444a;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+
+
+.projectCard{
+    width: 60vw;
+}
+
+.projectCardComponents{
+    background: #c7444a;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+.projectCardComponents p a{
+    text-decoration: none;
+    background: #c7444a;
+}
+/* #c7444a */

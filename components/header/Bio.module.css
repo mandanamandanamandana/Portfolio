@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+
+.main{
+    display: flex;   
+    width: 100vw;
+    justify-content:center;
+    height: calc(100vh - 70px);
+}
+
+.bioContainer{
+    width: 55vw;
+}
+
+.bioContainer h1{
+    text-align: right;
+    color:#c7444a;
+    font-size: 2.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #c7444a;
+    font-family: 'Dancing Script', cursive;
+}
+
+.bioText p {
+    padding-top:1rem;
+}
+
+
+.bioContainerIndent{
+    padding-left: 2.5rem;
+}
+
+@media screen and (max-width: 800px ) {
+    .bioContainer{
+        font-size: 0.75rem;
+    }
+
+    .bioContainer h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 570px ){
+    .bioContainer{
+        font-size: .74rem;
+    }
+}
+
+@media screen and (max-width: 555px ){
+    .bioContainer{
+        font-size: 0.70rem;
+    }
+}
+
+@media screen and (max-width: 453px ){
+    .bioContainer{
+        font-size: .68rem;
+    }
+}
+
+@media screen and (max-width: 450px ){
+    .bioContainer{
+        font-size: .65rem;
+    }
+}
+
+@media screen and (max-width: 445px ){
+    .bioContainer{
+        font-size: 0.70rem;
+        width: 65vw;
+    }
+}
+
+@media screen and (max-width: 395px ){
+    .bioContainer{
+        font-size: .65rem;
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 310px ){
+    .bioContainer{
+        font-size: .60rem;
+    }
+}
+
+@media screen and (max-width: 280px ) {
+    .bioContainer{
+        font-size: 0.60rem;
+    }
+
+    .bioContainer h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 260px ){
+    .bioContainer{
+        font-size: .55rem;
+    }
+}
+
+@media screen and (max-width: 222px ){
+    .bioContainer{
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 190px ){
+    .bioContainer {
+        font-size: .4rem;
+    }
+}
+

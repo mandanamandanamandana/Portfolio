@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+
+.container{
+    display: flex;
+    background: black;
+    color: white;
+}
+
+.nav{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+.navList{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 100%;
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
+
+.Link{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.Link:hover{
+    color:#c7444a;
+}
+
+
+.logoContainer{
+    display: flex;
+    padding-left: 4rem;
+}
+
+.logoContainer img {
+    width: 13rem;
+}
+
+@media screen and (max-width: 800px ) {
+    .container{
+        flex-direction: column;
+    }
+
+    .logoContainer{
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .Link{
+        background: #c7444a;
+    }
+
+    .Link:hover{
+        color: black;
+        background: #c7444a;
+    }
+
+    .navList{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        background: #c7444a;
+    }
+}
+
+@media screen and (max-width: 300px ) {
+    
+}
